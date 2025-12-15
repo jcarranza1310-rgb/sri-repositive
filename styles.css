@@ -1,4 +1,4 @@
-/* RESET */
+
 * {
     margin: 0;
     padding: 0;
@@ -6,17 +6,17 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-/* LAYOUT */
+
 .layout {
     display: flex;
     min-height: 100vh;
 }
 
-/* BANNER */
+
 .banner {
     flex: 2;
     background-image: url("img/ZxvRmyKnsY0y531oub4tpoinX5w.avif");
-    background-size: cover;        /* EVITA DISTORSIÓN */
+    background-size: cover;        
     background-position: center;
     background-repeat: no-repeat;
 
@@ -40,7 +40,7 @@
     margin-bottom: 1rem;
 }
 
-/* LOGIN */
+
 .login {
     flex: 1;
     background-color: #0a3d91;
@@ -100,7 +100,7 @@
     text-decoration: underline;
 }
 
-/* TABLET */
+
 @media (max-width: 1024px) {
     .layout {
         flex-direction: column;
@@ -111,7 +111,7 @@
     }
 }
 
-/* MÓVIL */
+
 @media (max-width: 600px) {
     .banner-texto h1 {
         font-size: 1.4rem;
